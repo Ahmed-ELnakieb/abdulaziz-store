@@ -1,0 +1,163 @@
+# Created by https://www.toptal.com/developers/gitignore/api/laravel,php,composer,linux,macos,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=laravel,php,composer,linux,macos,windows
+
+### Composer ###
+/vendor
+/vendor/composer/installed.json
+# Forbid the lock file to avoid platform-specific dependencies
+composer.lock
+
+### Laravel ###
+# Storage unmanaged by VCS
+/storage/*
+!/storage/*.key
+!/storage/oauth-private.key
+!/storage/oauth-public.key
+!/storage/framework/cache/
+!/storage/framework/sessions/
+!/storage/framework/views/
+!/storage/logs/
+
+# Laravel - Optional
+/database/seeds/
+/database/migrations/
+/database/factories/
+
+# Laravel - Common files
+!.env
+.env*
+!.env.*.sample
+!.sequelizerc
+!*.blade.php
+
+# Compiled Assets
+/public/css/app.css
+/public/js/app.js
+/public/mix-manifest.json
+
+# Laravel - Optional
+bootstrap/cache/*
+bootstrap/cache/.gitkeep
+bootstrap/autoload.php
+
+# Laravel - Common files
+server.php
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Laravel - Packages
+## Package Cache
+/.composer
+/composer.phar
+
+# Laravel - Testing
+.phpunit.result.cache
+.phpunit-watcher
+.phpunit-watcher.yml
+Tests/
+tests/_output/
+
+# Laravel - IDE
+.idea/*
+.vscode/*
+
+# Laravel - OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Laravel - Logs
+logs/*
+*.log
+
+# Laravel - Environment specific settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.testing.local
+
+# Laravel - PHP Server
+router.php
+
+# Laravel - Laravel 5 - Package Cache
+packages/*/*/vendor
+
+# Laravel - Archive and backup files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bak
+*.tmp
+*~
+.swp
+.swo
+
+# Laravel - Session files
+sess_*
+
+# Laravel - Framework-specific
+public/hot
+public/storage
+public/_nuxt
+public/dist
+public/build
+public/assets
+
+# Laravel - Development tools
+.php_cs
+.php_cs.dist
+.php_cs.php
+.php_cs.cache
+
+# Laravel - Docker
+.docker
+docker-compose.override.yml
+
+# Laravel - Browser-sync
+.browser-sync*
+bs-config.json
+
+# Laravel - NPM/Yarn
+node_modules/
+package-lock.json
+yarn.lock
+
+# Laravel - Cache and temporary files
+*.cache
+.cache/
+*.tmp
+tmp/
+temp/
+
+# Laravel - IDE and Editor specific files
+.vs/
+.settings/
+.project
+*.sublime-project
+*.sublime-workspace
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+*.tmproj
+*.xcworkspace
+xcuserdata/
+*.xcodeproj
+
+# Laravel - Local configuration
+config/local.php
+.env.local.php
+
+# End of https://www.toptal.com/developers/gitignore/api/laravel,php,composer,linux,macos,windows

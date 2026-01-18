@@ -1,0 +1,60 @@
+[16-Jan-2026 00:47:44 UTC] PHP Warning:  include(/home/elnakieb/abdulazizministreet.com/vendor/fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:44 UTC] PHP Warning:  include(): Failed opening '/home/elnakieb/abdulazizministreet.com/vendor/composer/../fakerphp/faker/src/Faker/Factory.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:44 UTC] PHP Warning:  require(/home/elnakieb/abdulazizministreet.com/vendor/phpstan/phpstan/bootstrap.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/elnakieb/abdulazizministreet.com/vendor/composer/../phpstan/phpstan/bootstrap.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/elnakieb/abdulazizministreet.com/vendor/autoload.php(22): ComposerAutoloaderInitaac80cdca86255c33f3cfc23cb1d7d5e::getLoader()
+#2 /home/elnakieb/abdulazizministreet.com/public/index.php(14): require('/home/elnakieb/...')
+#3 {main}
+  thrown in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:44 UTC] PHP Warning:  include(/home/elnakieb/abdulazizministreet.com/vendor/fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:44 UTC] PHP Warning:  include(): Failed opening '/home/elnakieb/abdulazizministreet.com/vendor/composer/../fakerphp/faker/src/Faker/Factory.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:44 UTC] PHP Warning:  require(/home/elnakieb/abdulazizministreet.com/vendor/phpstan/phpstan/bootstrap.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/elnakieb/abdulazizministreet.com/vendor/composer/../phpstan/phpstan/bootstrap.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/elnakieb/abdulazizministreet.com/vendor/autoload.php(22): ComposerAutoloaderInitaac80cdca86255c33f3cfc23cb1d7d5e::getLoader()
+#2 /home/elnakieb/abdulazizministreet.com/public/index.php(14): require('/home/elnakieb/...')
+#3 {main}
+  thrown in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:45 UTC] PHP Warning:  include(/home/elnakieb/abdulazizministreet.com/vendor/fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:45 UTC] PHP Warning:  include(): Failed opening '/home/elnakieb/abdulazizministreet.com/vendor/composer/../fakerphp/faker/src/Faker/Factory.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:45 UTC] PHP Warning:  require(/home/elnakieb/abdulazizministreet.com/vendor/phpstan/phpstan/bootstrap.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/elnakieb/abdulazizministreet.com/vendor/composer/../phpstan/phpstan/bootstrap.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/elnakieb/abdulazizministreet.com/vendor/autoload.php(22): ComposerAutoloaderInitaac80cdca86255c33f3cfc23cb1d7d5e::getLoader()
+#2 /home/elnakieb/abdulazizministreet.com/public/index.php(14): require('/home/elnakieb/...')
+#3 {main}
+  thrown in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:45 UTC] PHP Warning:  include(/home/elnakieb/abdulazizministreet.com/vendor/fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:45 UTC] PHP Warning:  include(): Failed opening '/home/elnakieb/abdulazizministreet.com/vendor/composer/../fakerphp/faker/src/Faker/Factory.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:45 UTC] PHP Warning:  require(/home/elnakieb/abdulazizministreet.com/vendor/phpstan/phpstan/bootstrap.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/elnakieb/abdulazizministreet.com/vendor/composer/../phpstan/phpstan/bootstrap.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/elnakieb/abdulazizministreet.com/vendor/autoload.php(22): ComposerAutoloaderInitaac80cdca86255c33f3cfc23cb1d7d5e::getLoader()
+#2 /home/elnakieb/abdulazizministreet.com/public/index.php(14): require('/home/elnakieb/...')
+#3 {main}
+  thrown in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:46 UTC] PHP Warning:  include(/home/elnakieb/abdulazizministreet.com/vendor/fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:46 UTC] PHP Warning:  include(): Failed opening '/home/elnakieb/abdulazizministreet.com/vendor/composer/../fakerphp/faker/src/Faker/Factory.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:46 UTC] PHP Warning:  require(/home/elnakieb/abdulazizministreet.com/vendor/phpstan/phpstan/bootstrap.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/elnakieb/abdulazizministreet.com/vendor/composer/../phpstan/phpstan/bootstrap.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/elnakieb/abdulazizministreet.com/vendor/autoload.php(22): ComposerAutoloaderInitaac80cdca86255c33f3cfc23cb1d7d5e::getLoader()
+#2 /home/elnakieb/abdulazizministreet.com/public/index.php(14): require('/home/elnakieb/...')
+#3 {main}
+  thrown in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:46 UTC] PHP Warning:  include(/home/elnakieb/abdulazizministreet.com/vendor/fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:46 UTC] PHP Warning:  include(): Failed opening '/home/elnakieb/abdulazizministreet.com/vendor/composer/../fakerphp/faker/src/Faker/Factory.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/ClassLoader.php on line 576
+[16-Jan-2026 00:47:46 UTC] PHP Warning:  require(/home/elnakieb/abdulazizministreet.com/vendor/phpstan/phpstan/bootstrap.php): Failed to open stream: No such file or directory in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41
+[16-Jan-2026 00:47:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/elnakieb/abdulazizministreet.com/vendor/composer/../phpstan/phpstan/bootstrap.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/elnakieb/abdulazizministreet.com/vendor/autoload.php(22): ComposerAutoloaderInitaac80cdca86255c33f3cfc23cb1d7d5e::getLoader()
+#2 /home/elnakieb/abdulazizministreet.com/public/index.php(14): require('/home/elnakieb/...')
+#3 {main}
+  thrown in /home/elnakieb/abdulazizministreet.com/vendor/composer/autoload_real.php on line 41

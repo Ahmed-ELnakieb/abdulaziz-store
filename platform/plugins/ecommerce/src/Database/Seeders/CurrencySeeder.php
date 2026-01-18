@@ -1,0 +1,39 @@
+<?php
+
+namespace Botble\Ecommerce\Database\Seeders;
+
+use Botble\Base\Supports\BaseSeeder;
+use Botble\Ecommerce\Models\Currency;
+
+class CurrencySeeder extends BaseSeeder
+{
+    public function run(): void
+    {
+        Currency::query()->truncate();
+
+        $currencies = [
+            [
+                'title' => 'USD',
+                'symbol' => '$',
+                'is_prefix_symbol' => true,
+                'order' => 1,
+                'decimals' => 2,
+                'is_default' => 0,
+                'exchange_rate' => 1,
+            ],
+            [
+                'title' => 'EGP',
+                'symbol' => 'ج.م',
+                'is_prefix_symbol' => false,
+                'order' => 5,
+                'decimals' => 2,
+                'is_default' => 1,
+                'exchange_rate' => 47.3,
+            ],
+        ];
+
+        foreach ($currencies as $currency) {
+            Currency::query()->create($currency);
+        }
+    }
+}
